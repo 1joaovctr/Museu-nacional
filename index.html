@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Museu nacional - Site oficial</title>
+        <meta charset="utf-8">
+        <!-- Normalize CSS -->
+        <link rel="stylesheet" type="
+        text/css" href="css/normalize.css">
+
+        <!-- Estilo customizado-->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+
+        <!--[if lt IE 9]>
+	        <script src="<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"</script>
+        <![endif]-->
+    </head>
+
+    <body>
+        
+        <div id="container"><!-- Início do container -->
+
+            <header><!-- Início do header-->
+                <div id="logo">
+                    <h1><a href="">Museu Nacional</a></h1>
+                </div>
+
+                <nav><!-- Início da navegação-->
+                 <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>                      
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+                </nav><!-- Fim da navegação -->
+            </header><!-- Fim do header-->
+
+            <div id="principal"><!-- Início do conteúdo principal -->
+                <div id="conteudo"><!-- Início do conteúdo-->
+                    <section id="capa">
+                        <img src="Imagens/museu.png">
+                    </section>
+
+                    <section id="postagens"><!-- Início área postagem -->
+                        <article id="video" class="conteudo-artigos">
+                            <h3>Video: conheça o museu</h3>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/Xu8xZLT0BrI?si=ngLlK4Ob7XLOIk7r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </article>
+
+                        <article id="mapa" class="conteudo-artigos">
+                            <h3>Mapa: encontre o museu</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8178135226376!2d-51.068235900000005!3d0.028879400000009877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d61e109dbffb90d%3A0xaa26c87d3b5a3d0f!2sMuseu%20Sacaca!5e0!3m2!1spt-BR!2sbr!4v1712609874655!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article>
+
+                        <article id="exposicoes" class="conteudo-artigos">
+                           <h3>Exposições</h3>
+                            <ul>
+                                <li>
+                                    <a href="">Fauna e flora amazônica</a>
+                                </li>
+                                <li>
+                                    <a href="">Urnas fúnebres Maracá e Cunani</a>
+                                </li>
+                                <li>
+                                    <a href="">Caixas de marabaixo antigas em exposição</a>
+                                </li>
+                                <li>
+                                    <a href="">Um estudo sobre as plantas medicinais amazônicas</a>
+                                </li>
+                                <li>
+                                    <a href="">Oficina da verdadeira gengibirra</a>
+                                </li>
+                                <li>
+                                    <a href="">História completa da fortaleza de São José de Macapá</a>
+                                </li>
+                                <li>
+                                    <a href="">Desvendando o Stonehange brasileiro</a>
+                                </li>
+                                <li>
+                                    <a href=""><strong>Veja todos (65)</strong></a>
+                                </li>
+                            </ul>
+                        </article>
+
+                        <article id="historia" class="conteudo-artigos">
+                            <h3>27 anos de história </h3>
+                            <p>
+                                O Museu Sacaca (oficialmente, Centro de Pesquisas Museológicas Museu Sacaca) é uma instituição cultural e científica localizada na cidade de Macapá, capital do estado brasileiro do Amapá. É subordinado ao Instituto de Pesquisas Científicas e Tecnológicas do Estado do Amapá (IEPA), órgão público responsável por fomentar e divulgar a produção científica e tecnológica local. Está sediado em uma extensa área de aproximadamente 21 mil metros quadrados, no bairro do Trem.
+                            </p>
+                            <a href=""><strong>Leia mais...</strong></a>
+                        </article>
+                    </section><!-- Fim área postagem -->
+                </div><!-- Fim do conteúdo -->
+
+            <aside><!-- Início da barra lateral -->
+                <section id="depoimento">
+                    <img src="Imagens/depoimento.png">
+                    </section><!-- Início da seção  visita -->
+
+                <section id="visita">
+                   <h4>Faça uma visita</h4>
+                   <form>
+                    <fieldset>
+                       <legend>Selecione uma data</legend>
+
+                       <labelfor="data">Data<label>                      
+                       <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                       <label for="qtd">Qtd pessoas</label>
+                        <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+                    </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                        </form>
+                    </section><!-- Fim da seção visita -->
+
+                    <section id="galeria"><!-- Início da seção galeria -->
+                        <h4>Galeria de fotos</h4>
+                            <a href="">
+                                <img src="Imagens/imagem1.jpg" height="93" width="93" alt="Area interna do museu">
+                            </a>
+
+                            <a href="">
+                                <img src="Imagens/imagem5.jpg" height="93" width="93" alt="Bebidas antigas em exposição">
+                            </a>
+
+                            <a href="">
+                                <img src="Imagens/imagem3.jpg" height="93" width="93" alt="Vestido antigo em expisição">
+                            </a>
+
+                            <a href="">
+                                <img src="Imagens/imagem4.jpg" height="93" width="93" alt="Parte do acervo bibliográfico em exposição">
+                            </a>
+                    </section><!-- Fim da seção galeria -->
+            </aside><!-- Fim da barra lateral -->
+
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>
+
+                <p>
+                    2024 <a href="">Museu nacional</a> - Todos os direitos reservados.
+                </p>
+            </footer>
+
+            </div><!-- Fim do conteúdo principal -->
+
+        </div><!-- Fim do container -->
+    </body>
+
+</html>
