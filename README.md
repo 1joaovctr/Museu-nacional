@@ -1,7 +1,7 @@
 # Museu nacional
 
-##Tecnologias
+## Tecnologias
 - HTML 5
 - CSS 3
 
-##Deploy
+## Deploy
